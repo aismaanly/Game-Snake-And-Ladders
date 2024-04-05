@@ -123,8 +123,8 @@ function rollDice() {
 
     index_pos = player - 1;
 
-    // var newPos = _currentPos[index_pos] + newMove; 
-    var newPos = 100; 
+    var newPos = _currentPos[index_pos] + newMove; 
+
 
    
     if (newPos > 100) {
